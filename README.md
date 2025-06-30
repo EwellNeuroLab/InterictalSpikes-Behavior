@@ -7,6 +7,11 @@ Justin, D. Y., Pasdarnavab, M., Kueck, L., Tarcsay, G., & Ewell, L. A. (2024). I
 
 # Main files and directories
 
+## Julia jupyter notebooks
+The directory Bayesian_Modeling_NOTEBOOKS contains several notebooks in the subdirectory Bayesian_Modeling_NOTEBOOKS/notebooks. 
+
+The subdirectory Bayesian_Modeling_NOTEBOOKS/data requiste raw data (exp_raw) and outputs of analyses (exp_pro) used throughout each notebook. 
+
 ## MATLAB Analysis Notebooks
 These are MATLAB live notebooks, with companion .html files for readability.
 ### BIRD_init_NOTEBOOK.mlx/html
