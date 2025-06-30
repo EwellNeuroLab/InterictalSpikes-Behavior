@@ -1,6 +1,22 @@
-## **data/datasets_with_spike_waveforms_2000Hz.mat**
+# Structure of repository
+This repository contains the data and code to reproduce the major analyses on the electrophysiological and behavioral data in Yi and Pasdarnavab et al. (in submission).
 
-The file **data/datasets_with_spike_waveforms_2000Hz.mat** contains a single MATLAB struct called `datasets`.
+## References
+
+Justin, D. Y., Pasdarnavab, M., Kueck, L., Tarcsay, G., & Ewell, L. A. (2024). Interictal spikes during spatial working memory carry helpful or distracting representations of space and have opposing impacts on performance. bioRxiv.
+
+# Main files and directories
+
+## MATLAB Analysis Notebooks
+These are MATLAB live notebooks, with companion .html files for readability.
+### BIRD_init_NOTEBOOK.mlx/html
+Calculates the spatial information of patterns of interictal spikes in Data/datasets_with_spike_waveforms_2000Hz.mat
+### multiple_AUC_NOTEBOOK.mlx/html
+Decodes the maze location and reward status of interical spike waveforms in Data/datasets_with_spike_waveforms_2000Hz.mat
+
+### **Data/datasets_with_spike_waveforms_2000Hz.mat**
+
+The file **Data/datasets_with_spike_waveforms_2000Hz.mat** contains a single MATLAB struct called `datasets`.
 `datasets` has the following fields, each with 224 rows corresponding to a single recording:
 
 `animal` - a 224x1 categorical vector with the ID of the animal (i.e. "m1")
